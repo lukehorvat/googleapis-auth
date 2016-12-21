@@ -1,4 +1,4 @@
-# googleapis-auth
+# googleapis-auth [![NPM version](http://img.shields.io/npm/v/googleapis-auth.svg?style=flat-square)](https://www.npmjs.org/package/googleapis-auth)
 
 Generate a credentials (token) file for authorized access to Google APIs.
 
