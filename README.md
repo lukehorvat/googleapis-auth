@@ -1,13 +1,13 @@
-# google-auth
+# googleapis-auth
 
-Generate a credentials file for authorized Google APIs access.
+Generate a credentials (token) file for authorized access to Google APIs.
 
 ## Installation
 
 Install the package with NPM:
 
 ```bash
-$ npm install -g google-auth
+$ npm install -g googleapis-auth
 ```
 
 ## Usage

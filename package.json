@@ -1,10 +1,10 @@
 {
-  "name": "google-auth",
+  "name": "googleapis-auth",
   "version": "0.0.0",
-  "description": "Generate a credentials file for authorized Google APIs access.",
+  "description": "Generate a credentials (token) file for authorized access to Google APIs.",
   "author": "Luke Horvat",
   "license": "MIT",
-  "repository": "lukehorvat/google-auth",
+  "repository": "lukehorvat/googleapis-auth",
   "bin": "dist",
   "scripts": {
     "build": "node_modules/.bin/babel lib -d dist -q",
@@ -30,7 +30,8 @@
     "googleapis",
     "auth",
     "credentials",
-    "token"
+    "token",
+    "client"
   ],
   "babel": {
     "presets": [
