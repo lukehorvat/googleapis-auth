@@ -1,6 +1,6 @@
 {
   "name": "googleapis-auth",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate a credentials (token) file for authorized access to Google APIs.",
   "author": "Luke Horvat",
   "license": "MIT",
