@@ -5,7 +5,7 @@
   "author": "Luke Horvat",
   "license": "MIT",
   "repository": "lukehorvat/googleapis-auth",
-  "bin": "dist",
+  "bin": "dist/index.js",
   "scripts": {
     "build": "node_modules/.bin/babel lib -d dist -q",
     "prebuild": "node_modules/.bin/rimraf dist",
