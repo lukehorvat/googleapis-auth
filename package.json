@@ -1,7 +1,36 @@
 {
-  "private": true,
+  "name": "google-auth",
+  "version": "0.0.0",
+  "description": "Generate a credentials file for authorized Google APIs access.",
+  "author": "Luke Horvat",
+  "license": "MIT",
+  "repository": "lukehorvat/google-auth",
+  "bin": "dist",
+  "scripts": {
+    "build": "node_modules/.bin/babel lib -d dist -q",
+    "prebuild": "node_modules/.bin/rimraf dist",
+    "prepublish": "npm run build"
+  },
   "dependencies": {
     "google-auth-library": "0.9.10",
     "googleapis": "15.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.18.0",
+    "babel-preset-es2015": "6.18.0",
+    "rimraf": "2.5.4"
+  },
+  "keywords": [
+    "google",
+    "api",
+    "googleapis",
+    "auth",
+    "credentials",
+    "token"
+  ],
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }
