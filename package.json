@@ -12,8 +12,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "google-auth-library": "0.9.10",
-    "googleapis": "15.0.0"
+    "google-auth-library": "0.9.10"
   },
   "devDependencies": {
     "babel-cli": "6.18.0",
